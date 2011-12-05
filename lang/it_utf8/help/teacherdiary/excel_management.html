@@ -1,0 +1,67 @@
+<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/teacherdiary/icon.gif" />&nbsp;<b>Diario docente: inserire più pagine contemporaneamente tramite Excel</b></p>
+<div class="indent" style="text-align:justify">
+<p>Il modulo Diario Docente permette di inserire più pagine del diario contemporaneamente,
+per farlo è necessario caricare in Moodle un file in formato CSV in cui la prima riga sarà di intestazione
+e seguirà questo schema:</p>
+<table cellpadding="5" border="1" style="width: 80%; margin: auto">
+  <tr>
+    <th>Valore</th>
+    <th>Descrizione</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>Il numero identificativo della pagina <b>da lasciare vuoto</b> se si vuole creare una nuova pagina</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>Il nome del diario docente che deve corrispondere quello che compare nel corso rispettando le maiuscole e le minuscole</td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td>Il numero identificativo del corso</td>
+  </tr>
+  <tr>
+    <td>teachername</td>
+    <td>Il nome del docente che ha svolto la lezione</td>
+  </tr>
+  <tr>
+    <td>day</td>
+    <td>giorno della docenza (un numero da 1 a 31)</td>
+  </tr>
+  <tr>
+    <td>month</td>
+    <td>mese della docenza (un numero da 1 a 12)</td>
+  </tr>
+  <tr>
+    <td>year</td>
+    <td>anno della docenza</td>
+  </tr>
+  <tr>
+    <td>starthour</td>
+    <td>ora di inizio della docenza (un numero da 1 a 24)</td>
+  </tr>
+  <tr>
+    <td>startminute</td>
+    <td>minuto di inizio della docenza (un numero da 0 a 59)</td>
+  </tr>
+  <tr>
+    <td>endhour</td>
+    <td>ora di fine della docenza (un numero da 1 a 24)</td>
+  </tr>
+  <tr>
+    <td>endminute</td>
+    <td>minuto di fine della docenza (un numero da 0 a 59)</td>
+  </tr>
+  <tr>
+    <td>summary</td>
+    <td>descrizione degli argomenti della docenza</td>
+  </tr>
+</table>
+
+<p>Questa struttura prende il nome di diario docente in <b>formato Excel editabile</b> e può
+essere scaricata dalla pagina  <i>"Inserisci più pagine del diario contemporaneamente tramite Excel"</i>
+di ogni diario docente.
+Può essere utile sfruttare questo file per fare copia-incolla delle pagine già inserite
+in modo da velocizzare l'inserimento.
+</p>
+</div>

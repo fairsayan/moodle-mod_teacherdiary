@@ -1,0 +1,35 @@
+<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/teacherdiary/icon.gif" />&nbsp;<b>Diario Docente: inserimento multiplo dei diari tramite Excel</b></p>
+<div class="indent" style="text-align:justify">
+<p>Il modulo Diario Docente permette di inserire più diari contemporaneamente, per farlo è necessario caricare un
+file in formato CSV in cui la prima riga sia costituita dal titolo dell'informazione che si troverà nella
+colonna corrispondente. Tali nomi sono tutti e solo i seguenti:</p>
+<table cellpadding="5" border="1" style="width: 80%; margin: auto">
+  <tr>
+    <th>Valore</th>
+    <th>Descrizione</th>
+  </tr>
+  <tr>
+    <td>teacher</td>
+    <td>Username del docente che gestirà il diario</td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td>ID del corso in cui dovrà essere inserito il diario</td>
+  </tr>
+  <tr>
+    <td>section</td>
+    <td>Il numero della sezione all'interno del corso in cui va inserito il diario</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>titolo del diario</td>
+  </tr>
+  <tr>
+    <td>plannedhours</td>
+    <td>ore previste di docenza</td>
+  </tr>
+</table>
+
+<p>Nel caso in cui nello stesso corso fosse presente un dario con lo stesso titolo non ne verrà creato uno nuovo.<br />
+E' possibile prendere come riferimento il seguente <a href="<?php echo $CFG->wwwroot?>/mod/teacherdiary/example.csv">file di esempio</a>.</p>
+</div>

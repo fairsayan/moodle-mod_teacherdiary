@@ -1,0 +1,34 @@
+<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/teacherdiary/icon.gif" />&nbsp;<b>Teacher diary: how to add multiple teacher diaries</b></p>
+<div class="indent">
+<p>You can create many teacher diaries together uploading a CSV file.
+The first row must contain the names of all the fields, in this table you have the meaning of each field:</p>
+<table cellpadding="5" border="1" style="width: 80%; margin: auto">
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>teacher</td>
+    <td>Username of the teacher who will be the owner of the diary</td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td>ID course number</td>
+  </tr>
+  <tr>
+    <td>section</td>
+    <td>The number of the section in which must be inserted the diary</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>Name of the diary</td>
+  </tr>
+  <tr>
+    <td>plannedhours</td>
+    <td>Planned hours for this diary</td>
+  </tr>
+</table>
+
+<p>If already exists another diary with the same name in a course, the new diary won't be created.<br />
+Here you can find an <a href="<?php echo $CFG->wwwroot?>/mod/teacherdiary/example.csv">example</a>.</p>
+</div>

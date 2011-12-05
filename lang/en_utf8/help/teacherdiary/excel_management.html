@@ -1,0 +1,64 @@
+<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/teacherdiary/icon.gif" />&nbsp;<b>Teacher diary: add teacher diary pages using Excel</b></p>
+<div class="indent" style="text-align:justify">
+<p>Teacher diary module allow you to add multiple pages uploading a CSV file that must follow this schema (the
+first row must be the heading):</p>
+<table cellpadding="5" border="1" style="width: 80%; margin: auto">
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>ID number for this page. <b>Leave it blank</b> if you want to add a new page</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>The name of the teacher diary. It must be the the same name you find as label in the course (it is case sensitive)</td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td>ID number of the course</td>
+  </tr>
+  <tr>
+    <td>teachername</td>
+    <td>The name of the teacher</td>
+  </tr>
+  <tr>
+    <td>day</td>
+    <td>day of the lecture (between 1 and 31)</td>
+  </tr>
+  <tr>
+    <td>month</td>
+    <td>month of the lecture (between 1 and 12)</td>
+  </tr>
+  <tr>
+    <td>year</td>
+    <td>year of the lecture</td>
+  </tr>
+  <tr>
+    <td>starthour</td>
+    <td>starting hour of the lecture (between 1 and 24)</td>
+  </tr>
+  <tr>
+    <td>startminute</td>
+    <td>starting minute of the lecture (between 0 and 49)</td>
+  </tr>
+  <tr>
+    <td>endhour</td>
+    <td>final hour of the lecture (between 1 and 24)</td>
+  </tr>
+  <tr>
+    <td>endminute</td>
+    <td>final minute of the lecture (between 0 and 49)</td>
+  </tr>
+  <tr>
+    <td>summary</td>
+    <td>summary about the topic of the lecture</td>
+  </tr>
+</table>
+
+<p>This structure is called <b>editable Excel format</b> and you can download it from the page
+<i>"Add teacher diary pages using Excel"</i> for each teacher diary.
+You can you this file to copy-paste the pages you already have inserted to go faster to create your
+new pages.</p>
+</div>
