@@ -10,5 +10,5 @@
 
 $module->version  = 2011120500;  // The current module version (Date: YYYYMMDDXX)
 $module->cron     = 0;           // Period for cron to check this module (secs)
-
+$plugin->release = '1.9.x';
 ?>
