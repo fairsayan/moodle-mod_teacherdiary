@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Code fragment to define the version of teacherdiary
- * This fragment is called by moodle_needs_upgrading() and /admin/index.php
- *
- * @author  Domenico Pontari <fairsayan@gmail.com>
- * @package mod/teacherdiary
+ * @package    mod
+ * @subpackage teacherdiary
+ * @author     Domenico Pontari <fairsayan@gmail.com>
+ * @copyright  2012 Domenico Pontari
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $module->version  = 2011120500;  // The current module version (Date: YYYYMMDDXX)
